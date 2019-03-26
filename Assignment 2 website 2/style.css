@@ -1,0 +1,188 @@
+body, html{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+nav{
+    background-color: rgb(53, 53, 53);
+}
+nav>a{
+    text-decoration: none;
+    float: right;
+    padding-right: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Arimo', sans-serif;
+}
+nav>span{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+}
+#icon{
+    float: right;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.landing{
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/5987c18399d894000124c2e8_Master\ Web\ Design\ .png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    background-size: cover;
+    background-position:50% 50%;
+}
+nav>a:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.landing-content{
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 70%;
+    max-width: 600px;
+    font-family: 'Oswald', sans-serif;
+    max-height: 290px;
+}
+.landing-content>h2{
+    font-size: 35px;
+    text-decoration: underline;
+}
+.landing-content>p{
+    padding: 4px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 22px;
+}
+.about{
+    display: inline-block;
+    width: 50%;
+}
+.about>h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    color: #6a62fa;
+    text-decoration-color: #6a62fa;
+    margin-top: 0px;
+}
+.about>p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#about1{
+    float: left;
+}
+#about2{
+    float: right;
+}
+.footer{
+    border-top: 1px solid black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    top: 202%;
+}
+.footer>a{
+    display: inline;
+    padding: 3px;
+}
+.footer>i{
+    display: inline;
+    padding-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.footer>a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.job1{
+    width: 70%;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+}
+.job1>p{
+    font-family: 'Arimo', sans-serif;
+}
+.job1>button{
+    width: 120px;
+    float: right;
+    margin-right: -155px;
+    margin-top: -100px;
+    border-radius: 5px;
+    background-color: #6a62fa;
+    border: none;
+    height: 30px;
+    list-style-type: none;
+}
+.job1>button>a{
+    text-decoration: none;
+    color: white;
+}
+.job1>button:hover{
+    background-color:#827cff;
+    cursor: pointer;
+}
+form{
+    font-family: 'Arimo', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    nav>span{
+        font-size: 25px;
+    }
+    nav>a{
+        font-size:15px;
+        padding: 6px;
+    }
+    nav>a:hover{
+        font-size: 20px;
+    }
+    .job1>button{
+        float: left;
+        margin: 0;
+        width: 120px;
+        margin-left: 20px;
+    }
+    .landing-content>h2{
+        font-size: 30px;
+    }
+    .landing-content>p{
+        padding: 4px;
+        font-family: 'Arimo', sans-serif;
+        font-size: 17px;
+    }
+    .about{
+        width: 100%;
+    }
+    .about>h2{
+        font-size: 30px;
+    }
+    .about>p{
+        font-size: 16px;
+    }
+    .footer{
+        top: 220%;
+    }
+}
